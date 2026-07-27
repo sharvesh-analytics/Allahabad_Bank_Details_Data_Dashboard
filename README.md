@@ -1,141 +1,56 @@
-# Bank Analytics Dashboard - Power BI Project
+# 🏦 Allahabad Bank Financial Operations & Risk Analytics Dashboard
 
-## Project Overview
-
-This project is a complete Allahabad Bank Analytics Dashboard created using Power BI.  
-The dashboard helps analyze customer banking behavior, loan distribution, account balances, credit scores, transactions, and online banking usage.
-
-The project demonstrates data cleaning, data visualization, KPI tracking, dashboard designing, and business insight generation using Power BI.
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+![Power BI](https://img.shields.io/badge/Power_BI-Banking_Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-Data_Modeling-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
 ---
 
-# Objectives
+## 📌 Executive Summary
 
-- Analyze customer banking data
-- Track loan distribution and balances
-- Understand customer demographics
-- Monitor credit score performance
-- Visualize banking transactions
-- Create interactive dashboards
+An interactive **Power BI Financial & Risk Analytics Dashboard** designed for Allahabad Bank customer demographics, loan portfolio risk, and credit performance. The dashboard enables bank managers to evaluate loan approval ratios, credit score risk bands, customer churn risk factors, and interest income distributions.
 
 ---
 
-# Dataset Features
+## ⚙️ Analytical Pipeline
 
-The dataset contains:
-
-- Customer ID
-- Customer Name
-- Age
-- Gender
-- City
-- Account Type
-- Account Balance
-- Monthly Income
-- Loan Type
-- Loan Amount
-- Credit Score
-- Transactions Per Month
-- Online Banking Usage
-- Branch Visits
+```mermaid
+flowchart LR
+    A[Bank Transaction & Customer Records] --> B[Data Cleaning & Null Imputation]
+    B --> C[DAX Calculated Columns & Measures]
+    C --> D[Star Schema Data Architecture]
+    D --> E[Interactive Executive Dashboard]
+```
 
 ---
 
-# Tools & Technologies Used
+## 💡 Key Business Metrics & Insights
 
-- Power BI
-- Microsoft Excel / CSV
-- Data Visualization
-- DAX
-- Data Cleaning
-- Dashboard Design
+- **💳 Credit Score Risk Segmentation:** Categorized borrowers into Excellent, Good, Fair, and High-Risk tiers to reduce default probability.
+- **📉 Churn Risk Identification:** Identified account balance and tenure thresholds strongly correlated with customer attrition.
+- **💰 Loan Portfolio Performance:** Visualized approval rates, default rates, and interest earnings across different branch regions.
+- **🎯 Customer Demographics:** Segmented active vs inactive account holders across age brackets and income groups.
 
 ---
 
-# Dashboard Pages
+## 🛠️ Tools & Technologies
 
-## 1. Customer Overview
-- Total Customers
-- Gender Distribution
-- Account Type Analysis
-- Customer Distribution by City
-
-## 2. Loan Analysis
-- Loan Amount by City
-- Loan Type Distribution
-- Loan Trends
-- Loan vs Credit Score Analysis
-
-## 3. Credit Score Analysis
-- Credit Score Distribution
-- Average Credit Score
-- Credit Risk Insights
-
-## 4. Banking Usage Analysis
-- Online Banking Usage
-- Branch Visit Analysis
-- Transaction Analysis
+- **Business Intelligence:** Power BI Desktop
+- **Data Modeling:** DAX (Data Analysis Expressions), Related Tables, Star Schema
+- **Data Preparation:** Power Query, Excel Pivot Tables
 
 ---
 
-# Visualizations Used
+## 🚀 How to Explore the Dashboard
 
-- KPI Cards
-- Bar Charts
-- Column Charts
-- Pie Charts
-- Scatter Plot
-- Line Charts
-- Histogram
-- Tree Map
-- Slicers
-
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/sharvesh-analytics/Allahabad_Bank_Details_Data_Dashboard.git
+   ```
+2. **Open Dashboard:**
+   - Double-click the `.pbix` file to open in **Power BI Desktop**.
 
 ---
 
-# Key Insights
-
-- Identified cities with highest loan amounts
-- Analyzed customer account balances
-- Compared online banking usage
-- Detected customer credit score trends
-- Visualized customer transaction behavior
-
----
-
-# Skills Demonstrated
-
-- Data Cleaning
-- Data Modeling
-- Data Visualization
-- Dashboard Development
-- Business Intelligence
-- Analytical Thinking
-- DAX Calculations
-
----
-
-# Future Improvements
-
-- Add real-time banking data
-- Create predictive analytics dashboard
-- Add machine learning insights
-- Add fraud detection analysis
-
----
-# Dashboard Screenshots
-- Screenshot (6).png
-- Screenshot (7).png
-- Screenshot (8).png
-- Screenshot (9).png
-
-
-# Author
-
-Sharvesh Pandey
-
----
-
-# Connect
-
-If you liked this project, feel free to star the repository and connect with me.
+### 👤 Author
+**Sharvesh Pandey** | [LinkedIn](https://www.linkedin.com/in/sharvesh-analytics) | [GitHub Profile](https://github.com/sharvesh-analytics)
