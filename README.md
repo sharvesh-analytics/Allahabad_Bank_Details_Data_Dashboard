@@ -1,4 +1,4 @@
- # 🏦 Allahabad Bank Financial Operations &            Risk Analytics Dashboard
+ # 🏦 Allahabad Bank Financial Operations &                 Risk Analytics Dashboard
 
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 ![Power BI](https://img.shields.io/badge/Power_BI-Banking_Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
